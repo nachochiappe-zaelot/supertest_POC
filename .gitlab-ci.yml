@@ -2,15 +2,10 @@ default:
   image: node:18
 
 stages:
-  - build
   - test
-
-build-job:
-  stage: build
-  script:
-    - npm install
 
 test-job:
   stage: test
   script:
+    - npm install
     - npm test -- --group=$TESTTYPE
