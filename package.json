@@ -8,6 +8,10 @@
     "test": "jest"
   },
   "jest": {
-    "testEnvironment": "node"
+    "testEnvironment": "node",
+    "runner": "groups"
+  },
+  "dependencies": {
+    "jest-runner-groups": "^2.2.0"
   }
 }

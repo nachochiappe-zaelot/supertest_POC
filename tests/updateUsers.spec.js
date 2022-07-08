@@ -1,3 +1,7 @@
+/**
+ * @group regression
+ */
+
 const request = require("supertest");
 
 const baseUrl = 'https://reqres.in/api/';

@@ -1,3 +1,9 @@
+/**
+ * @group regression
+ * @group smoke
+ * @group users
+ */
+
 const request = require("supertest");
 
 const baseUrl = 'https://reqres.in/api/';
